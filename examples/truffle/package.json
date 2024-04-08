@@ -1,0 +1,12 @@
+{
+  "name": "woop-erc20",
+  "version": "1.0.0",
+  "description": "Woop sample ERC20 deploy",
+  "main": "truffle.js",
+  "dependencies": {
+    "@woop-js/core": "^0.1.36",
+    "dotenv": "^8.2.0",
+    "openzeppelin-solidity": "^2.2.0",
+    "tslib": "^1.10.0"
+  }
+}

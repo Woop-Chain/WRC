@@ -1,11 +1,11 @@
 # WRC
-WoopChain ERC20
+Woop ERC20
 
 ## Overview
-This sample project can be used to deploy an ERC20 token on WoopChain's Testnet
+This sample project can be used to deploy an ERC20 token on Woop's Testnet
 
 ## Pre-requisites
-Please read the guideline for [Smart Contract Development using Truffle](https://docs.wikiwoop.com/home/developers-1/which-one-are-you/W20)
+Please read the guideline for [Smart Contract Development using Truffle](https://docs.wikiwoop.com/home/developers-1/which-one-are-you/h2o)
 
 ## Install
 
@@ -96,8 +96,8 @@ module.exports = function() {
         console.log("Woop ERC20 Information: Total   : " + total.toString());
         console.log("my address : " + myAddress);
         console.log("test account address : " + testAccount);
-        console.log("my minted    W20 balance is: " + mybalance.toString());
-        console.log("test account W20 balance is: " + testAccBalance.toString());
+        console.log("my minted    H2O balance is: " + mybalance.toString());
+        console.log("test account H2O balance is: " + testAccBalance.toString());
         console.log("\ntransfered " + transferAmount.toString() + " from my address (minter) to test account");
     }
     getWoopERC20Information();
@@ -132,8 +132,8 @@ module.exports = function() {
         console.log("Woop ERC20 Information: Total   : " + total.toString());
         console.log("my address : " + myAddress);
         console.log("test account address : " + testAccount);
-        console.log("my minted    W20 balance is: " + mybalance.toString());
-        console.log("test account W20 balance is: " + testAccBalance.toString());
+        console.log("my minted    H2O balance is: " + mybalance.toString());
+        console.log("test account H2O balance is: " + testAccBalance.toString());
 
     }
     getWoopERC20Information();
@@ -152,8 +152,8 @@ Woop ERC20 Information: Decimals: 18
 Woop ERC20 Information: Total   : 1000000000000000000000000
 my address : 0x3aea49553Ce2E478f1c0c5ACC304a84F5F4d1f98
 test account address : 0x7c41e0668b551f4f902cfaec05b5bdca68b124ce
-my minted    W20 balance is: 1000000000000000000000000
-test account W20 balance is: 0
+my minted    H2O balance is: 1000000000000000000000000
+test account H2O balance is: 0
 
 transfered 2000000 from my address (minter) to test account
 ```
@@ -172,8 +172,8 @@ Woop ERC20 Information: Decimals: 18
 Woop ERC20 Information: Total   : 1000000000000000000000000
 my address : 0x3aea49553Ce2E478f1c0c5ACC304a84F5F4d1f98
 test account address : 0x7c41e0668b551f4f902cfaec05b5bdca68b124ce
-my minted    W20 balance is: 999999999999999998000000
-test account W20 balance is: 2000000
+my minted    H2O balance is: 999999999999999998000000
+test account H2O balance is: 2000000
 ```
 
 type ctrl+C to exit
